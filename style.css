@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almendra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(simple\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+/* this is navigation bar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D24545;
+    padding: 20px;
+}
+
+nav h1{
+    font-family: 'Almendra', serif;
+}
+
+.logo{
+    display: flex;
+    gap: 1em;
+}
+
+.logo i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.navbutton{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 30%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* this is the overall content */
+.overall{
+    margin: 10px 300px 20px 300px;
+    line-height: 1.6;
+}
+
+.overall2{
+    margin: 150px 50px 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    margin-bottom: 80px;
+    font-size: 45px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.content{
+    font-size: 20px;
+}
+
+.content2{
+    font-size: 20px;
+}
+
+.contentpic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.contentpic p{
+    color: gray;
+    margin-top: 20px;
+    border-style: outset;
+    text-align: center;
+    font-size: 15px;
+}
+
+.recto{
+    width: 745px;
+}
+
+.more{
+    display: grid;
+}
+
+.more a{
+    text-decoration: none;
+    color: whitesmoke;  
+    padding: 8px 15px 8px 15px;
+}
+
+.more p{
+    background: #D24545;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* this is footer */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D24545;
+    padding: 20px 10px 20px 10px;
+}
